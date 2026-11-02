@@ -19,7 +19,39 @@
 
 Schiebesachen – Lizenz: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.de) Lernsachen.blog ([https://lernsachen.blog](https://lernsachen.blog))
 
-Enthaltene Bausteine: [Preact](https://preactjs.com), [Immer](https://immerjs.github.io/immer/), [Excalidraw](https://excalidraw.com) (MIT-Lizenz); [Anthropic TypeScript SDK](https://github.com/anthropics/anthropic-sdk-typescript) für die KI-Schnittstelle ([Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0)); Schriften Nunito, Atkinson Hyperlegible, Andika, Merriweather, Caveat (SIL Open Font License 1.1). Bilder aus der Suche behalten ihre eigenen Lizenzen (ARASAAC: CC BY-NC-SA 4.0).
+Enthaltene Bausteine: [Preact](https://preactjs.com), [Immer](https://immerjs.github.io/immer/), [Excalidraw](https://excalidraw.com) (MIT-Lizenz); [Anthropic TypeScript SDK](https://github.com/anthropics/anthropic-sdk-typescript) für die KI-Schnittstelle ([Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0)); Schriften Lexend, Nunito, Atkinson Hyperlegible, Andika, Merriweather, Caveat (SIL Open Font License 1.1). Bilder aus der Suche behalten ihre eigenen Lizenzen (ARASAAC: CC BY-NC-SA 4.0). Silbentrennung (Silben rot und blau): [Hypher](https://github.com/bramstein/hypher) (© 2011 Bram Stein, BSD-3-Clause) mit den deutschen TeX-Trennmustern dehyphn-x-2011-06-01 (© 2007–2011 Werner Lemberg, [LaTeX Project Public License 1.3c](https://www.latex-project.org/lppl/)), von Bram Stein ins Hypher-Format umgewandelt (npm-Paket hyphenation.de 0.2.1); die Silbenregeln für Sprechsilben kommen danach dazu. Die Autoren der Trennmuster sind für diese App nicht verantwortlich. Unverändertes Original: [tex-hyphen](https://github.com/hyphenation/tex-hyphen) (hyph-de-1996.tex, Stand 2011-06-01) bzw. CTAN (hyph-utf8).
+
+<details><summary>Lizenztext von Hypher (BSD-3-Clause)</summary>
+
+```
+Copyright (c) 2011, Bram Stein
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions
+are met:
+
+ 1. Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+ 2. Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in the
+    documentation and/or other materials provided with the distribution.
+ 3. The name of the author may not be used to endorse or promote products
+    derived from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE AUTHOR "AS IS" AND ANY EXPRESS OR IMPLIED
+WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO
+EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT,
+INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,
+BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY
+OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE,
+EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+```
+
+</details>
 
 ---
 
@@ -199,12 +231,15 @@ Elemente sind die Kärtchen, die die Lernenden verschieben. Lege sie im Schritt 
 ### Schriften
 
 - **Nunito** – serifenlos und freundlich (beim ersten Start voreingestellt; danach beginnen neue Texte in der Schrift, die du zuletzt gewählt hast)
+- **Lexend** – besonders leicht lesbar, mit weiten Buchstaben
 - **Atkinson Hyperlegible** – barrierefreie Schrift mit besonders gut unterscheidbaren Buchstaben (z. B. bei Sehbeeinträchtigung oder Lese-Rechtschreib-Schwierigkeiten)
 - **Andika** – für Leseanfänger, mit einstöckigem „a“
 - **Merriweather** – mit Serifen
 - **Caveat** – Handschrift
 
 Dazu kommen Größe, Farbe, fett, kursiv und Ausrichtung. Alle Schriften sind in die Übung eingebettet und sehen überall gleich aus.
+
+**Silben rot und blau** (rot-blauer Silben-Knopf): Die Wörter erscheinen in Sprechsilben, abwechselnd blau und rot (Silbenmethode) – statt der Schriftfarbe, auf einer weißen Hinterlegung, damit sie auf bunten Karten und Hintergründen gut lesbar bleiben.
 
 **Zuletzt gewählte Schrift** : Schiebesachen merkt sich die Schrift, die du zuletzt gewählt hast – egal ob beim Titel, bei einem Element, bei einer Beschriftung oder bei einem Text im Hintergrund. Neue Texte und Titel sind dann gleich auf diese Schrift voreingestellt, auch der Titel einer „Neuen Übung“. So bleibt deine Übung einheitlich. Größe, Farbe und die übrigen Einstellungen änderst du wie gewohnt für jeden Text einzeln. Die Schrift wird in deinem Browser gemerkt (siehe Datenschutz) und gilt auch, wenn du Schiebesachen später wieder öffnest.
 
