@@ -371,6 +371,10 @@ Zeichnungen aus einer exportierten HTML-Übung kannst du danach nur noch verschi
 
 Ordner-Symbol → „Neue Übung“ beginnt mit einer leeren Übung (nach einer Sicherheitsabfrage). Die zuletzt gewählte Schrift bleibt erhalten – der neue Titel beginnt gleich in ihr.
 
+### Im Lernsachen-Heft
+
+Im Lernsachen-Heft öffnet die Vorlage „Zuordnungen“ Schiebesachen direkt im Heft. Oben rechts stehen dann „Ins Heft übernehmen“ und „Abbrechen“. Bis die Übung im Heft ist, speichert Schiebesachen sie als eigenen Entwurf – getrennt von der Übung, an der du sonst in Schiebesachen arbeitest. Wurde das Heft zwischendurch geschlossen, bietet Schiebesachen bei der nächsten neuen Übung an, den Entwurf fortzusetzen.
+
 ### Rückgängig und Wiederholen
 
 Mit den Pfeilen oben oder <kbd>Strg</kbd>+<kbd>Z</kbd> machst du Schritte rückgängig, mit <kbd>Strg</kbd>+<kbd>Umschalt</kbd>+<kbd>Z</kbd> oder <kbd>Strg</kbd>+<kbd>Y</kbd> stellst du sie wieder her. Auch gelöschte Bilder oder Elemente holst du so zurück.
