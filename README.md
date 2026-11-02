@@ -375,6 +375,8 @@ Ordner-Symbol → „Neue Übung“ beginnt mit einer leeren Übung (nach einer 
 
 Im Lernsachen-Heft öffnet die Vorlage „Zuordnungen“ Schiebesachen direkt im Heft. Oben rechts stehen dann „Ins Heft übernehmen“ und „Abbrechen“. Bis die Übung im Heft ist, speichert Schiebesachen sie als eigenen Entwurf – getrennt von der Übung, an der du sonst in Schiebesachen arbeitest. Wurde das Heft zwischendurch geschlossen, bietet Schiebesachen bei der nächsten neuen Übung an, den Entwurf fortzusetzen.
 
+Weil die Seiten im Heft quer sind, gibt es dort nur Querformate – und zwar die, die zur Startposition der Elemente passen: mit der Ablage unten 2:1 oder 16:9, mit der Ablage rechts 4:3 oder 1:1, frei auf der Fläche 16:9, 4:3 oder 2:1.
+
 ### Rückgängig und Wiederholen
 
 Mit den Pfeilen oben oder <kbd>Strg</kbd>+<kbd>Z</kbd> machst du Schritte rückgängig, mit <kbd>Strg</kbd>+<kbd>Umschalt</kbd>+<kbd>Z</kbd> oder <kbd>Strg</kbd>+<kbd>Y</kbd> stellst du sie wieder her. Auch gelöschte Bilder oder Elemente holst du so zurück.
