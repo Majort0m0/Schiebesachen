@@ -224,8 +224,9 @@ Gib Ton-Elementen am besten eine „Beschriftung“: Dann klappt auch das PDF-Ar
 ### Vorlesen und eigene Aufnahme
 
 1. Schalte bei einem Element unter „Vorlesen“ den „Vorlesen-Button anzeigen“ ein. Auf der Karte erscheint oben rechts ein kleiner Lautsprecher – er sitzt wie ein Abzeichen auf der Ecke und verdeckt keinen Text.
-2. Ohne eigene Aufnahme liest die **Computerstimme des Geräts** den Text vor (deutsche Stimme des Browsers). Mit „Probehören“ testest du sie.
-3. Für eine **eigene Aufnahme** klicke auf „Eigene Aufnahme verwenden“, nimm auf (oder lade eine Datei hoch) und schneide sie zu. Sie wird dann statt der Computerstimme abgespielt – z. B. für Fremdsprachen, Dialekt oder Lautieren.
+2. Sollen alle Elemente vorgelesen werden, klicke direkt darunter auf „Für alle Elemente einschalten“ *(neu)* – das spart viele Klicks. Elemente ohne Text bleiben aus. Genauso geht „Für alle Elemente ausschalten“, und bei Lösungsbereichen und Hintergrund-Elementen gibt es das ebenfalls. Ein Klick auf Rückgängig nimmt alles auf einmal zurück.
+3. Ohne eigene Aufnahme liest die **Computerstimme des Geräts** den Text vor (deutsche Stimme des Browsers). Mit „Probehören“ testest du sie.
+4. Für eine **eigene Aufnahme** klicke auf „Eigene Aufnahme verwenden“, nimm auf (oder lade eine Datei hoch) und schneide sie zu. Sie wird dann statt der Computerstimme abgespielt – z. B. für Fremdsprachen, Dialekt oder Lautieren.
 
 Vorlesen gibt es auch für den Titel, für Bild-Elemente mit Beschriftung, für Texte im Hintergrund-Editor und für Beschriftungen von Lösungsbereichen.
 
