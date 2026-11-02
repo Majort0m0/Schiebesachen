@@ -6,6 +6,7 @@
 
 **⬇ Herunterladen:** [Schiebesachen.html](https://github.com/Majort0m0/Schiebesachen/releases/latest/download/Schiebesachen.html) (eine einzige Datei, läuft offline – einfach doppelklicken)
 
+- Mehrseitige Übungen: mehrere Seiten mit „Weiter“/„Zurück“ und Gesamtergebnis (auch in SCORM und im PDF)
 - Neue Übungen aus Übungsformaten – Bild und Wort, Oberbegriffe sortieren, Artikel (der, die, das), Reihenfolge, Paare, Bild beschriften, Buchstabieren: nur die Begriffe aufschreiben oder von einer KI vorschlagen lassen, Anordnung, Design und Piktogramme macht Schiebesachen
 - Texte, Bilder (Upload, ARASAAC, Wikimedia Commons) und Töne (Upload oder Aufnahme) als Zuordnungselemente
 - Hintergrund als Bild, Farbe oder frei gestaltet im Editor – mit Texten, Bildern, Tönen und eigenen Zeichnungen
@@ -49,6 +50,7 @@ Mit Schiebesachen erstellst du Zuordnungsübungen: Die Lernenden ziehen Texte, B
 - **Schrittleiste** (links, auf dem Smartphone unten): die fünf Arbeitsschritte. Ein roter Punkt zeigt an, dass dort noch etwas fehlt (z. B. der Titel).
 - **Seitenleiste:** alle Einstellungen des gewählten Schritts bzw. des ausgewählten Elements oder Bereichs.
 - **Arbeitsfläche:** zeigt die Übung so, wie die Lernenden sie sehen. Hier verschiebst und vergrößerst du Elemente und Bereiche direkt mit der Maus oder dem Finger.
+- **Seitenleiste unter der Arbeitsfläche:** die Seiten der Übung – eine Übung kann mehrere Seiten haben (siehe [Mehrere Seiten](#mehrere-seiten)).
 
 ## Neue Übung: Formate & KI
 
@@ -64,7 +66,7 @@ Beim ersten Start und bei „Neue Übung“ (Ordner-Symbol) fragt Schiebesachen,
 | **Reihenfolge** | `1. Ei` – die Schritte in der richtigen Reihenfolge (Nummern sind freiwillig) | Nummerierte Bereiche 1., 2., 3. … 2 bis 8 Schritte. |
 | **Paare zuordnen** | `Deutschland = Berlin` | Links der feste Begriff, rechts ein Bereich für die passende Karte. 2 bis 8 Paare. |
 | **Bild beschriften** | `Blüte` – ein Begriff pro Zeile | Bereiche am linken und rechten Rand, Ablage rechts. Danach wählst du im Schritt „2 Hintergrund“ das Bild und schiebst die Bereiche an die passenden Stellen. 2 bis 10 Begriffe. |
-| **Buchstabieren** *(neu)* | `Hund` – genau ein Wort | Das Bild zum Wort groß in der Mitte, darunter ein Kästchen für jeden Buchstaben; die Buchstaben liegen gemischt in der Ablage. Kommt ein Buchstabe doppelt vor („Ball“), passt jeder in beide Kästchen. Ablenker: `- x q`. Ein Wort pro Übung (im Lernsachen-Heft: eine Seite pro Wort), 2 bis 14 Buchstaben – so, wie du sie schreibst, auch in Großbuchstaben. |
+| **Buchstabieren** *(neu)* | `Hund` – ein Wort pro Zeile | Jedes Wort bekommt eine eigene **Seite**: das Bild zum Wort groß in der Mitte, darunter ein Kästchen für jeden Buchstaben; die Buchstaben liegen gemischt in der Ablage. Kommt ein Buchstabe doppelt vor („Ball“), passt jeder in beide Kästchen. Ablenker: `- x q` (auf jeder Seite). Bis zu 20 Wörter, je 2 bis 14 Buchstaben – so, wie du sie schreibst, auch in Großbuchstaben. |
 
 Für alle Formate gilt:
 
@@ -84,7 +86,7 @@ Ist „Bilder automatisch suchen“ eingeschaltet, sucht Schiebesachen beim Erst
 
 ### Mit einer KI
 
-„Mit KI erstellen …“ öffnet einen Dialog für das gewählte Format: Thema, optional Material oder Stichpunkte, Anzahl, Zielgruppe und – je nach Format – Oberbegriffe, Ablenker, Bilder und weitere Wünsche. Die Auswahl merkt sich Schiebesachen für das nächste Mal. Dann gibt es zwei Wege:
+„Mit KI erstellen …“ öffnet einen Dialog für das gewählte Format: Thema, optional Material oder Stichpunkte, Anzahl, Zielgruppe und – je nach Format – Oberbegriffe, Ablenker, Bilder und weitere Wünsche (bei „Buchstabieren“: Anzahl der Wörter und höchstens wie viele Buchstaben). Die Auswahl merkt sich Schiebesachen für das nächste Mal. Dann gibt es zwei Wege:
 
 - **Über einen KI-Chat:** Klicke eine KI-Anwendung an (z. B. AIS.chat, ByLKI, Duck.ai, ChatGPT). Der fertige Prompt mit deiner Auswahl wird automatisch übernommen: in die Zwischenablage (dort mit Strg+V einfügen), bei ChatGPT, Claude und Mistral zusätzlich direkt ins Eingabefeld. Für jede andere KI gibt es „Andere KI (Zwischenablage)“. Die Antwort der KI kopieren und nach „Ergebnis einfügen …“ ins Textfeld einfügen – auch mit dem Begleittext der KI; Schiebesachen liest nur den Block zwischen ```` ``` ````.
 - **Über eine API-Schnittstelle:** mit einem eigenen API-Schlüssel (Claude von Anthropic oder ein Dienst mit OpenAI-kompatibler Schnittstelle wie OpenAI, Mistral, Gemini, OpenRouter) oder einer **lokalen KI** (Ollama, LM Studio – ohne Schlüssel). „Übung erzeugen“ schickt den Prompt direkt ab; das Ergebnis steht danach im Textfeld. Den Schlüssel speichert Schiebesachen nur, wenn du das einschaltest.
@@ -326,9 +328,29 @@ Jedes richtig zugeordnete Element gibt **einen Punkt**; Fehler kosten keine Punk
 
 Die Checkliste unten im Schritt „Ablauf“ prüft deine Übung: fehlender Titel, Elemente ohne Bereich, leere Bereiche, unsichtbare Bereiche auf einfarbigem Hintergrund, Ton-Elemente ohne Beschriftung (die das PDF verhindern) usw. Ein Klick auf einen Eintrag führt dich direkt zur Stelle. Steht dort „Alles bereit!“, kannst du testen.
 
+## Mehrere Seiten
+
+Eine Übung kann mehrere **Seiten** haben – z. B. ein Wort pro Seite beim Buchstabieren oder mehrere Bilder zum Beschriften. Die Lernenden blättern mit „Weiter“ und „Zurück“; am Ende gibt es ein Ergebnis für alle Seiten zusammen. *(neu)*
+
+### Seiten anlegen und ordnen
+
+- Die **Seitenleiste** unter der Arbeitsfläche zeigt die Seiten. Tippe eine Nummer an, um diese Seite zu bearbeiten.
+- „+ Seite“ fügt nach der gezeigten Seite eine leere Seite ein, „Verdoppeln“ eine Kopie mit Hintergrund, Elementen und Bereichen – praktisch, wenn alle Seiten gleich aufgebaut sein sollen.
+- Mit den Pfeilen verschiebst du die gezeigte Seite nach vorne oder hinten, mit dem Papierkorb löschst du sie (Rückgängig holt sie zurück).
+- Jede Seite hat ihren eigenen **Hintergrund**, ihre **Elemente** und **Bereiche**. **Titel**, **Format** und **Ablauf** gelten für alle Seiten.
+- Rückgängig und Wiederholen zeigen jeweils die Seite, auf der sich etwas geändert hat. Die Checkliste nennt die Seite mit.
+
+### So sehen es die Lernenden
+
+- In der Leiste unter der Übung stehen „‹“, die Seitenzahl (z. B. „2 / 5“) und „Weiter“. Ist eine Seite fertig, wird „Weiter“ hervorgehoben. Jede Seite merkt sich ihren Stand, auch beim Zurückblättern.
+- Unter dem Ergebnis einer Seite steht, welche Seiten noch offen sind – sind alle fertig, die Punkte **aller Seiten zusammen**.
+- **SCORM (mebis):** gemeldet werden die Punkte aller Seiten zusammen, sobald jede Seite bearbeitet ist; der Fortschritt jeder Seite wird gespeichert.
+- **PDF:** erst das Arbeitsblatt jeder Seite, danach die Lösungen.
+- **Im Lernsachen-Heft** kommt die ganze Übung auf eine Heft-Seite; geblättert wird in der Übung.
+
 ## Testen
 
-1. Klicke oben auf „Testen“. Die Übung startet genau so, wie die Lernenden sie sehen.
+1. Klicke oben auf „Testen“. Die Übung startet genau so, wie die Lernenden sie sehen – bei mehreren Seiten auf der Seite, die du gerade bearbeitest („Neu starten“ beginnt bei Seite 1).
 2. Ziehe Elemente, probiere Vorlese-Buttons und Töne aus, werte aus und teste „Nochmal“ und „Lösung anzeigen“.
 3. „Neu starten“ beginnt von vorn, „Zurück zum Bearbeiten“ (oder „Bearbeiten“ oben) führt zurück in den Editor.
 
