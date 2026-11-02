@@ -7,7 +7,7 @@ Diese Hinweise stehen auch in der App unter „Datenschutz“.
 - Schiebesachen hat keinen Server. Alles läuft lokal in deinem Browser.
 - Deine Übungen werden nur auf deinem Gerät gespeichert.
 - Keine Anmeldung, keine Cookies, kein Tracking, keine Analyse, keine Werbung.
-- Verbindungen ins Internet gibt es nur, wenn du die Bildsuche (ARASAAC, Wikimedia Commons) benutzt oder eine Bildadresse (URL) einfügst – siehe Punkt 4.
+- Verbindungen ins Internet gibt es nur, wenn du die Bildsuche (ARASAAC, Wikimedia Commons) benutzt, bei einer neuen Übung Bilder automatisch suchen lässt oder eine Bildadresse (URL) einfügst – siehe Punkt 4 –, und wenn du eine KI über eine API-Schnittstelle nutzt – siehe Punkt 8.
 
 ### 1. Alles läuft lokal in deinem Browser
 
@@ -22,6 +22,8 @@ Damit nichts verloren geht, speichert Schiebesachen die aktuelle Übung automati
 Öffnest du Schiebesachen im Lernsachen-Heft, liegt der Entwurf getrennt davon und wird gelöscht, sobald die Übung im Heft ist oder du abbrichst. Die Übung gibt Schiebesachen dabei nur an das Heft in deinem Browser weiter – sie verlässt dein Gerät nicht.
 
 Außerdem merkt sich Schiebesachen im lokalen Speicher deines Browsers (localStorage) die **zuletzt gewählte Schrift**, damit neue Texte gleich in dieser Schrift beginnen. Gespeichert wird nur der Name der Schrift, keine Inhalte. Dieser Eintrag bleibt auch bei einer „Neuen Übung“ erhalten; du löschst ihn, indem du in deinem Browser die Website-Daten löschst.
+
+Ebenso merkt sich Schiebesachen dort das **zuletzt gewählte Design** für neue Übungen und die **Einstellungen des KI-Dialogs** (Thema, Zielgruppe usw. – den API-Schlüssel nur, wenn du das einschaltest, siehe Punkt 8).
 
 Dateien wie JSON, HTML, SCORM-Pakete oder PDF entstehen ebenfalls nur lokal und werden in deinem Download-Ordner gespeichert. Was du damit machst (z. B. in mebis hochladen), entscheidest du.
 
@@ -39,6 +41,8 @@ Nur wenn du im Bild-Dialog **selbst** eine Suche startest oder ein Suchergebnis 
 | **Wikimedia Commons** (Wikimedia Foundation, USA) | `commons.wikimedia.org`, `upload.wikimedia.org`, `thumb.wikimedia.org` | [Datenschutzrichtlinie der Wikimedia Foundation](https://foundation.wikimedia.org/wiki/Policy:Privacy_policy/de) |
 
 Dabei werden **deine IP-Adresse**, der **Suchbegriff** und übliche technische Angaben deines Browsers (z. B. Browsertyp, Sprache) an diesen Dienst übermittelt – so wie beim Besuch der jeweiligen Webseite. Schiebesachen schickt keine weiteren Daten mit, insbesondere nicht deine Übung. Gib deshalb keine personenbezogenen Daten als Suchbegriff ein. Die Wikimedia Foundation sitzt in den USA; Daten können dorthin übertragen werden.
+
+Erstellst du eine „Neue Übung“ aus einem Übungsformat und ist „Bilder automatisch suchen“ eingeschaltet, sucht dein Browser beim Klick auf „Übung erstellen“ bei ARASAAC nach den Wörtern bzw. Suchwörtern der Karten – dabei gilt dasselbe wie bei der Bildsuche. Schalte die Bildsuche aus, wenn das nicht passieren soll.
 
 Fügst du unter „Oder Bildadresse (URL) einfügen“ eine Adresse ein oder ziehst ein Bild aus einer anderen Webseite hinein, lädt dein Browser das Bild von dieser Webseite – auch dabei erfährt deren Betreiber deine IP-Adresse.
 
@@ -60,9 +64,15 @@ Exportierte Übungen (HTML-Datei – auch eingebettet per iframe –, SCORM-Pake
 
 Ein **SCORM-Paket** meldet Punkte, Fortschritt, „bestanden“/„nicht bestanden“ und den Bearbeitungsstand (zum Fortsetzen) ausschließlich an die Lernplattform, in die du es hochgeladen hast (z. B. mebis). Dort gelten die Datenschutzbestimmungen dieser Plattform bzw. deiner Schule.
 
-### 8. Personenbezogene Daten in Übungen
+### 8. Personenbezogene Daten und KI
 
 Du entscheidest, was in einer Übung steht. Bitte verwende **keine personenbezogenen Daten von Schülerinnen und Schülern** (z. B. Namen, Noten, Fotos, Stimmaufnahmen) ohne Einwilligung bzw. ohne Rechtsgrundlage. Das gilt besonders, wenn du Übungen weitergibst oder veröffentlichst. Beachte auch Urheber- und Persönlichkeitsrechte bei Bildern.
+
+**KI-Chat:** Beim Weg „Über einen KI-Chat“ (bei „Neue Übung“ → „Mit KI erstellen …“) schickt Schiebesachen selbst nichts an eine KI – du kopierst nur einen Text (den Prompt) in die Zwischenablage und fügst ihn selbst in eine KI-Anwendung deiner Wahl ein. Dort gelten die Bedingungen dieses Anbieters.
+
+**API-Schnittstelle:** Nur wenn du „Über eine API-Schnittstelle“ wählst und auf „Übung erzeugen“ klickst, schickt dein Browser den Prompt (Thema, Material, deine Auswahl) direkt an den eingestellten Dienst – an Anthropic, an den gewählten Anbieter oder an eine lokale KI auf deinem Rechner bzw. im Schulnetz. Dabei erfährt der Dienst auch deine IP-Adresse. Es gelten die Bedingungen des Anbieters; die Kosten richten sich nach deinem Vertrag. Den API-Schlüssel speichert Schiebesachen nur in deinem Browser und nur, wenn du „Schlüssel in diesem Browser speichern“ einschaltest. In exportierte Übungen gelangen weder Schlüssel noch Einstellungen.
+
+Gib in keine KI personenbezogene Daten von Schülerinnen und Schülern ein.
 
 ### 9. Verantwortlich
 
