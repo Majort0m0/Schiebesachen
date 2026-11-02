@@ -74,7 +74,7 @@ Mit Schiebesachen erstellst du Zuordnungsübungen: Die Lernenden ziehen Texte, B
 
 > **Tipp:** Schneller geht es mit einem **Übungsformat**: Bild und Wort, Oberbegriffe, Artikel, Reihenfolge, Paare, Bild beschriften oder Buchstabieren – du schreibst nur die Begriffe auf (oder lässt sie von einer KI vorschlagen), den Rest baut Schiebesachen. Siehe [Neue Übung: Formate & KI](#neue-übung-formate--ki).
 
-> **Tipp:** Deine Arbeit wird automatisch im Browser gespeichert. Sichere wichtige Übungen trotzdem zusätzlich als JSON-Datei (Ordner-Symbol oben rechts → „Als JSON speichern“) – siehe [Speichern & Weiterbearbeiten](#speichern--weiterbearbeiten).
+> **Tipp:** Deine Arbeit wird automatisch im Browser gespeichert. Sichere wichtige Übungen trotzdem zusätzlich als Datei (Ordner-Symbol oben rechts → „Speichern“) – siehe [Speichern & Weiterbearbeiten](#speichern--weiterbearbeiten).
 
 ### So ist der Editor aufgebaut
 
@@ -127,7 +127,7 @@ Ist „Bilder automatisch suchen“ eingeschaltet, sucht Schiebesachen beim Erst
 
 ### Danach
 
-„Übung erstellen“ ersetzt die aktuelle Übung (nach einer Sicherheitsabfrage – sichere sie vorher als JSON-Datei, wenn du sie behalten möchtest). Die neue Übung ist eine ganz normale Übung: Texte, Bilder, Bereiche, Hintergrund und Ablauf lassen sich in den fünf Schritten ändern.
+„Übung erstellen“ ersetzt die aktuelle Übung (nach einer Sicherheitsabfrage – sichere sie vorher als Datei, wenn du sie behalten möchtest). Die neue Übung ist eine ganz normale Übung: Texte, Bilder, Bereiche, Hintergrund und Ablauf lassen sich in den fünf Schritten ändern.
 
 ## 1 Titel & Format
 
@@ -395,19 +395,15 @@ Eine Übung kann mehrere **Seiten** haben – z. B. ein Wort pro Seite beim Buch
 
 Klicke oben rechts auf „Exportieren“ (dafür braucht die Übung einen Titel). Hast du noch Hinweise in der Checkliste, zeigt der Dialog sie an – exportieren kannst du trotzdem.
 
-### Projektdatei (JSON)
-
-Die Arbeitsdatei zum **Weiterbearbeiten** in Schiebesachen – mit allen Bildern und Tönen. Damit sicherst du Übungen, gibst sie an Kolleginnen und Kollegen weiter oder bearbeitest sie auf einem anderen Gerät weiter. Für Lernende ist sie nicht gedacht.
-
 ### HTML-Datei
 
-Eine einzelne Datei, die in jedem Browser läuft – auch ohne Internet. Zum Verschicken per E-Mail oder Messenger, zum Ablegen auf dem Schulserver oder in mebis als Material „Datei“. Ergebnisse werden dabei nicht gespeichert. Tipp: Eine exportierte HTML-Datei kannst du über „Öffnen …“ auch wieder in Schiebesachen laden und weiterbearbeiten.
+Eine einzelne Datei, die in jedem Browser läuft – auch ohne Internet. Zum Verschicken per E-Mail oder Messenger, zum Ablegen auf dem Schulserver oder in mebis als Material „Datei“. Ergebnisse werden dabei nicht gespeichert. Dieselbe Datei ist auch deine Arbeitsdatei: Über „Öffnen …“ lädst du sie wieder in Schiebesachen und bearbeitest sie weiter – mit allen Bildern, Tönen und Zeichnungen.
 
 ### HTML-Datei in mebis/Moodle einbetten (iframe) 
 
 So erscheint die Übung direkt in mebis – auch mitten in einem Textfeld, auf einer Textseite oder in der Abschnittsbeschreibung. Nach dem Herunterladen der HTML-Datei zeigt der Export-Dialog dir dafür die Anleitung „In mebis/Moodle einbetten“. Du kannst sie auch ohne Download über den Link „Einbetten in mebis/Moodle“ bei der HTML-Datei öffnen.
 
-1. Klicke bei „HTML-Datei (eigenständig)“ auf „Herunterladen“. Die Datei landet in deinem Download-Ordner, der Dialog wechselt zu „In mebis/Moodle einbetten“.
+1. Klicke bei „HTML-Datei (speichern und weitergeben)“ auf „Herunterladen“. Die Datei landet in deinem Download-Ordner, der Dialog wechselt zu „In mebis/Moodle einbetten“.
 2. In mebis im Kurs „Bearbeiten“ einschalten und die **HTML-Datei hochladen** – z. B. als Material „Datei“ mit der Anzeige „Eingebettet“ oder im Texteditor eines Textfelds bzw. einer Seite über „Link“ oder „Medien“ → „Datei hochladen“. Als Material „Datei“ mit „Eingebettet“ sehen die Lernenden die Übung schon dort – dann bist du fertig. Die nächsten Schritte brauchst du nur für ein Textfeld oder eine Seite.
 3. **Link der Datei kopieren:** Klicke mit der rechten Maustaste auf den Dateinamen der hochgeladenen Datei und wähle „Link-Adresse kopieren“. Der Link beginnt meist mit https://mebis.bycs.de/ und enthält „pluginfile.php“.
 4. Füge den Link im Export-Dialog in das Feld „Link der HTML-Datei“ ein. Der „iframe-Code“ darunter ist dann fertig – mit passender Höhe für deine Übung. Klicke auf „Code kopieren“.
@@ -452,7 +448,7 @@ Nur ein **Ton-Element ohne Beschriftung** verhindert das PDF – sein Kärtchen 
 | Übung in mebis mitten im Text | HTML-Datei hochladen + iframe-Code („Einbetten in mebis/Moodle“) |
 | Verschicken, Schulserver, offline | HTML-Datei |
 | Ausdrucken | PDF |
-| Später weiterbearbeiten, teilen mit Kolleginnen und Kollegen | JSON (oder HTML-Datei) |
+| Später weiterbearbeiten, teilen mit Kolleginnen und Kollegen | HTML-Datei („Speichern“) |
 
 ## Speichern & Weiterbearbeiten
 
@@ -462,16 +458,18 @@ Jede Änderung wird nach kurzer Zeit automatisch **in deinem Browser** gespeiche
 
 > **Achtung:** Der Browser-Speicher ist kein Archiv: Er gilt nur für diesen Browser auf diesem Gerät, und er geht verloren, wenn du die Browserdaten löschst oder im privaten Modus arbeitest. Es gibt immer nur **eine** aktuelle Übung.
 
-### Als JSON sichern
+### Als Datei sichern
 
-1. Klicke oben rechts auf das Ordner-Symbol → „Als JSON speichern“.
-2. Die Datei landet in deinem Download-Ordner. Bewahre sie z. B. in deinem Schul-Cloudspeicher auf.
+1. Klicke oben rechts auf das Ordner-Symbol → „Speichern“.
+2. Du bekommst eine HTML-Datei, z. B. „Der, die oder das (Schiebesachen).html“. Sie landet in deinem Download-Ordner. Bewahre sie z. B. in deinem Schul-Cloudspeicher auf.
+
+Die Datei ist zugleich die fertige Übung: Sie läuft in jedem Browser und lässt sich in Lernsachen-Heft einfügen. Am Namen erkennst du, aus welcher App eine Datei stammt: „(Schiebesachen)“, „(Quizsachen)“, „(Textsachen)“ oder „(Heft)“ für Lernsachen-Heft.
 
 ### Öffnen
 
-Ordner-Symbol → „Öffnen …“ lädt eine JSON-Datei **oder eine exportierte HTML-Übung** wieder in den Editor. Die aktuelle Übung wird dabei ersetzt – sichere sie vorher, wenn du sie behalten möchtest.
+Ordner-Symbol → „Öffnen …“ lädt eine gespeicherte oder exportierte HTML-Übung wieder in den Editor (auch ältere JSON-Dateien). Die aktuelle Übung wird dabei ersetzt – sichere sie vorher, wenn du sie behalten möchtest. Öffnest du die Datei einer anderen App, sagt dir Schiebesachen, wohin sie gehört.
 
-Zeichnungen aus einer exportierten HTML-Übung kannst du danach nur noch verschieben, vergrößern und löschen, aber nicht mehr weiterzeichnen – die Zeichen-Daten stecken nur in der JSON-Datei. Sichere deshalb immer auch die JSON-Datei.
+Zeichnungen aus HTML-Dateien älterer Versionen (vor 1.7) kannst du danach nur noch verschieben, vergrößern und löschen, aber nicht mehr weiterzeichnen – diese Dateien enthalten die Zeichen-Daten noch nicht.
 
 ### Neue Übung
 
@@ -559,7 +557,7 @@ Damit du nicht vor jeder Aufnahme neu zustimmen musst (Chrome fragt bei einer ge
 
 Wie gebe ich eine Übung an eine Kollegin weiter?
 
-Schicke ihr die JSON-Datei oder die exportierte HTML-Datei. Beide lassen sich in Schiebesachen über „Öffnen …“ wieder bearbeiten.
+Schicke ihr die gespeicherte HTML-Datei. Sie lässt sich in Schiebesachen über „Öffnen …“ wieder bearbeiten.
 
 Brauche ich Internet?
 

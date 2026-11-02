@@ -25,7 +25,7 @@ Außerdem merkt sich Schiebesachen im lokalen Speicher deines Browsers (localSto
 
 Ebenso merkt sich Schiebesachen dort das **zuletzt gewählte Design** für neue Übungen und die **Einstellungen des KI-Dialogs** (Thema, Zielgruppe usw. – den API-Schlüssel nur, wenn du das einschaltest, siehe Punkt 8).
 
-Dateien wie JSON, HTML, SCORM-Pakete oder PDF entstehen ebenfalls nur lokal und werden in deinem Download-Ordner gespeichert. Was du damit machst (z. B. in mebis hochladen), entscheidest du.
+Dateien wie HTML, SCORM-Pakete oder PDF entstehen ebenfalls nur lokal und werden in deinem Download-Ordner gespeichert. Was du damit machst (z. B. in mebis hochladen), entscheidest du.
 
 ### 3. Keine Cookies, kein Tracking
 
