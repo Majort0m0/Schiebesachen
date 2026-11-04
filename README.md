@@ -7,7 +7,7 @@
 **⬇ Herunterladen:** [Schiebesachen.html](https://github.com/Majort0m0/Schiebesachen/releases/latest/download/Schiebesachen.html) (eine einzige Datei, läuft offline – einfach doppelklicken)
 
 - Mehrseitige Übungen: mehrere Seiten mit „Weiter“/„Zurück“ und Gesamtergebnis (auch in SCORM und im PDF)
-- Neue Übungen aus Übungsformaten – Bild und Wort, Oberbegriffe sortieren, Artikel (der, die, das), Reihenfolge, Paare, Bild beschriften, Buchstabieren: nur die Begriffe aufschreiben oder von einer KI vorschlagen lassen, Anordnung, Design und Piktogramme macht Schiebesachen
+- Neue Übungen aus Übungsformaten – Bild und Wort, Oberbegriffe sortieren, Artikel (der, die, das), Reihenfolge, Paare, Bild beschriften, Buchstabieren, Silbenlesen: nur die Begriffe aufschreiben oder von einer KI vorschlagen lassen, Anordnung, Design und Piktogramme macht Schiebesachen
 - Texte, Bilder (Upload, ARASAAC, Wikimedia Commons) und Töne (Upload oder Aufnahme) als Zuordnungselemente
 - Hintergrund als Bild, Farbe oder frei gestaltet im Editor – mit Texten, Bildern, Tönen und eigenen Zeichnungen
 - Lösungsbereiche sichtbar, als Punkt, als Pfeil, in Elementgröße oder unsichtbar
@@ -74,7 +74,7 @@ Mit Schiebesachen erstellst du Zuordnungsübungen: Die Lernenden ziehen Texte, B
 5. **Ablauf einstellen** – im Schritt „5 Ablauf“: Sofort-Feedback oder „Überprüfen“-Button, Optionen wie „Reihenfolge mischen“, Bestehensgrenze. Die Checkliste zeigt, ob noch etwas fehlt.
 6. **Testen und exportieren** – oben auf „Testen“ klicken und die Übung selbst ausprobieren. Dann „Exportieren“: als HTML-Datei (auch zum Einbetten in mebis), als SCORM-Paket für mebis mit Bewertung oder als PDF-Arbeitsblatt.
 
-> **Tipp:** Schneller geht es mit einem **Übungsformat**: Bild und Wort, Oberbegriffe, Artikel, Reihenfolge, Paare, Bild beschriften oder Buchstabieren – du schreibst nur die Begriffe auf (oder lässt sie von einer KI vorschlagen), den Rest baut Schiebesachen. Siehe [Neue Übung: Formate & KI](#neue-übung-formate--ki).
+> **Tipp:** Schneller geht es mit einem **Übungsformat**: Bild und Wort, Oberbegriffe, Artikel, Reihenfolge, Paare, Bild beschriften, Buchstabieren oder Silbenlesen – du schreibst nur die Begriffe auf (oder lässt sie von einer KI vorschlagen), den Rest baut Schiebesachen. Siehe [Neue Übung: Formate & KI](#neue-übung-formate--ki).
 
 > **Tipp:** Deine Arbeit wird automatisch im Browser gespeichert. Sichere wichtige Übungen trotzdem zusätzlich als Datei (Ordner-Symbol oben rechts → „Speichern“) – siehe [Speichern & Weiterbearbeiten](#speichern--weiterbearbeiten).
 
@@ -101,12 +101,13 @@ Beim ersten Start und bei „Neue Übung“ (Ordner-Symbol) fragt Schiebesachen,
 | **Paare zuordnen** | `Deutschland = Berlin` | Links der feste Begriff, rechts ein Bereich für die passende Karte. 2 bis 8 Paare. |
 | **Bild beschriften** | `Blüte` – ein Begriff pro Zeile | Bereiche am linken und rechten Rand, Ablage rechts. Danach wählst du im Schritt „2 Hintergrund“ das Bild und schiebst die Bereiche an die passenden Stellen. 2 bis 10 Begriffe. |
 | **Buchstabieren** *(neu)* | `Hund` – ein Wort pro Zeile | Jedes Wort bekommt eine eigene **Seite**: das Bild zum Wort groß in der Mitte, darunter ein Kästchen für jeden Buchstaben; die Buchstaben liegen gemischt in der Ablage. Kommt ein Buchstabe doppelt vor („Ball“), passt jeder in beide Kästchen. Ablenker: `- x q` (auf jeder Seite). Bis zu 20 Wörter, je 2 bis 14 Buchstaben – so, wie du sie schreibst, auch in Großbuchstaben. |
+| **Silbenlesen** *(neu)* | `Banane` – ein Wort pro Zeile, eigene Trennung mit `Ba-na-ne` | Schiebesachen zerlegt jedes Wort in Silben (Silbenmethode). Bis zu 4 Wörter pro **Seite**, je eine Reihe: links die Hilfe, daneben ein Kästchen für jede Silbe; die Silben liegen gemischt in der Ablage und werden der Reihe nach hineingezogen. Als Hilfe wählst du „Bild“ (das Bild zum Wort, eigenes Suchwort mit `[Bild: …]`), „Wort“ (das Wort geschrieben) oder „Hören“ (ein Ohr – ein Tipp darauf liest das Wort vor). „Silben blau und rot“ färbt die Silben wie bei der Silbenmethode. Ablenker: `- mo ri` (einzelne Silben, auf jeder Seite). Bis zu 24 Wörter mit 2 bis 6 Silben. |
 
 Für alle Formate gilt:
 
 - `Titel: Tiere im Wald` – der Titel der Übung (freiwillig).
 - `Hund [Bild: Dackel]` – am Ende einer Zeile: Suchwort für ein Piktogramm (ARASAAC). Bei „Bild und Wort“ wird ohne Angabe zum Wort selbst gesucht.
-- `- Fisch` – ein **Ablenker**: eine Karte, die nirgends hingehört (nicht bei „Reihenfolge“; bei „Buchstabieren“ einzelne Buchstaben). Mit Ablenkern passen höchstens 20 Karten in die Ablage.
+- `- Fisch` – ein **Ablenker**: eine Karte, die nirgends hingehört (nicht bei „Reihenfolge“; bei „Buchstabieren“ einzelne Buchstaben, bei „Silbenlesen“ einzelne Silben). Mit Ablenkern passen höchstens 20 Karten in die Ablage.
 
 „Beispiel“ setzt das Beispiel des Formats ein, „So geht's“ zeigt die Schreibweise. Rechts siehst du sofort eine **Vorschau** der fertigen Übung – graue Felder sind Platzhalter für die Bilder.
 
