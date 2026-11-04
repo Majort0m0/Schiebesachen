@@ -119,6 +119,10 @@ Sechs Designs legen Hintergrundfarbe, Karten, Schrift und Farben fest: „Klar�
 
 Ist „Bilder automatisch suchen“ eingeschaltet, sucht Schiebesachen beim Erstellen zu jedem Suchwort das erste passende Piktogramm bei ARASAAC (Lizenz CC BY-NC-SA 4.0, steht als Bildnachweis am Bild). Findet ein eigenes Suchwort nichts, wird das Wort der Karte versucht. Wörter ohne Treffer zeigt Schiebesachen danach an – dort fügst du die Bilder selbst ein. Dafür braucht es Internet; ohne Bilder geht alles auch offline.
 
+### Aus einer Wortliste
+
+Bei „Bild und Wort“, „Oberbegriffe sortieren“, „Buchstabieren“ und „Silbenlesen“ setzt „Aus Wortliste …“ Wörter aus den Listen von Lernsachen-Heft ein: „Erste Wörter“ (lautgetreu), den „Grundwortschatz Bayern 1/2“ (LehrplanPLUS, nach Rechtschreibschwerpunkten) und „Deutsch als Zweitsprache“ (nach Themen). Ganze Abschnitte oder einzelne Wörter antippen, Listen lassen sich mischen. Jedes Wort bringt sein geprüftes Piktogramm mit (`Uhu [Bild: #24905]` – eine Nummer ist ein bestimmtes ARASAAC-Piktogramm, es wird nicht gesucht). Bei „Oberbegriffe sortieren“ wird jeder gewählte Abschnitt eine Spalte, z. B. „Wörter mit ei“ und „Wörter mit eu“.
+
 ### Mit einer KI
 
 „Mit KI erstellen …“ öffnet einen Dialog für das gewählte Format: Thema, optional Material oder Stichpunkte, Anzahl, Zielgruppe und – je nach Format – Oberbegriffe, Ablenker, Bilder und weitere Wünsche (bei „Buchstabieren“: Anzahl der Wörter und höchstens wie viele Buchstaben). Die Auswahl merkt sich Schiebesachen für das nächste Mal. Dann gibt es zwei Wege:
