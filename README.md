@@ -72,15 +72,15 @@ Mit Schiebesachen erstellst du Zuordnungsübungen: Die Lernenden ziehen Texte, B
 3. **Elemente anlegen** – im Schritt „3 Elemente“ auf „Text“, „Bild“ oder „Ton“ klicken. Viele Texte gehen am schnellsten mit „Mehrere Texte auf einmal“. Darunter legst du die „Startposition der Elemente“ fest: in einer Ablageleiste (unten oder rechts) oder frei auf der Fläche.
 4. **Lösungsbereiche setzen** – im Schritt „4 Bereiche“ auf die passende Stelle des Hintergrunds klicken (oder ein Rechteck aufziehen) und darunter die richtigen Elemente abhaken.
 5. **Ablauf einstellen** – im Schritt „5 Ablauf“: Sofort-Feedback oder „Überprüfen“-Button, Optionen wie „Reihenfolge mischen“, Bestehensgrenze. Die Checkliste zeigt, ob noch etwas fehlt.
-6. **Testen und exportieren** – oben auf „Testen“ klicken und die Übung selbst ausprobieren. Dann „Exportieren“: als HTML-Datei (auch zum Einbetten in mebis), als SCORM-Paket für mebis mit Bewertung oder als PDF-Arbeitsblatt.
+6. **Testen und speichern** – oben auf „Testen“ klicken und die Übung selbst ausprobieren. Dann „Speichern“: als HTML-Datei (auch zum Einbetten in mebis), als SCORM-Paket für mebis mit Bewertung oder als PDF-Arbeitsblatt.
 
 > **Tipp:** Schneller geht es mit einem **Übungsformat**: Bild und Wort, Oberbegriffe, Artikel, Reihenfolge, Paare, Bild beschriften, Buchstabieren oder Silbenlesen – du schreibst nur die Begriffe auf (oder lässt sie von einer KI vorschlagen), den Rest baut Schiebesachen. Siehe [Neue Übung: Formate & KI](#neue-übung-formate--ki).
 
-> **Tipp:** Deine Arbeit wird automatisch im Browser gespeichert. Sichere wichtige Übungen trotzdem zusätzlich als Datei (Ordner-Symbol oben rechts → „Speichern“) – siehe [Speichern & Weiterbearbeiten](#speichern--weiterbearbeiten).
+> **Tipp:** Deine Arbeit wird automatisch im Browser gespeichert. Sichere wichtige Übungen trotzdem zusätzlich als Datei (Ordner-Symbol oben rechts → „Als HTML-Datei speichern“) – siehe [Speichern & Weiterbearbeiten](#speichern--weiterbearbeiten).
 
 ### So ist der Editor aufgebaut
 
-- **Obere Leiste:** Titel der Übung, Rückgängig/Wiederholen, Umschalter „Bearbeiten“/„Testen“, Datei-Menü (Ordner-Symbol), Anleitung, Datenschutz und „Exportieren“.
+- **Obere Leiste:** Titel der Übung, Rückgängig/Wiederholen, Umschalter „Bearbeiten“/„Testen“, Datei-Menü (Ordner-Symbol), Anleitung, Datenschutz und „Speichern“.
 - **Schrittleiste** (links, auf dem Smartphone unten): die fünf Arbeitsschritte. Ein roter Punkt zeigt an, dass dort noch etwas fehlt (z. B. der Titel).
 - **Seitenleiste:** alle Einstellungen des gewählten Schritts bzw. des ausgewählten Elements oder Bereichs.
 - **Arbeitsfläche:** zeigt die Übung so, wie die Lernenden sie sehen. Hier verschiebst und vergrößerst du Elemente und Bereiche direkt mit der Maus oder dem Finger.
@@ -396,11 +396,11 @@ Eine Übung kann mehrere **Seiten** haben – z. B. ein Wort pro Seite beim Buch
 2. Ziehe Elemente, probiere Vorlese-Buttons und Töne aus, werte aus und teste „Nochmal“ und „Lösung anzeigen“.
 3. „Neu starten“ beginnt von vorn, „Zurück zum Bearbeiten“ (oder „Bearbeiten“ oben) führt zurück in den Editor.
 
-> **Tipp:** Teste auch auf einem Smartphone oder Tablet: Exportiere dazu die HTML-Datei und öffne sie auf dem Gerät. Ziehen funktioniert mit Finger, Maus, Stift und Tastatur.
+> **Tipp:** Teste auch auf einem Smartphone oder Tablet: Speichere dazu die HTML-Datei und öffne sie auf dem Gerät. Ziehen funktioniert mit Finger, Maus, Stift und Tastatur.
 
-## Exportieren
+## Speichern und teilen
 
-Klicke oben rechts auf „Exportieren“ (dafür braucht die Übung einen Titel). Hast du noch Hinweise in der Checkliste, zeigt der Dialog sie an – exportieren kannst du trotzdem.
+Klicke oben rechts auf „Speichern“ (dafür braucht die Übung einen Titel). Hast du noch Hinweise in der Checkliste, zeigt der Dialog sie an – speichern kannst du trotzdem.
 
 ### HTML-Datei
 
@@ -467,7 +467,7 @@ Jede Änderung wird nach kurzer Zeit automatisch **in deinem Browser** gespeiche
 
 ### Als Datei sichern
 
-1. Klicke oben rechts auf das Ordner-Symbol → „Speichern“.
+1. Klicke oben rechts auf das Ordner-Symbol → „Als HTML-Datei speichern“.
 2. Du bekommst eine HTML-Datei, z. B. „Der, die oder das (Schiebesachen).html“. Sie landet in deinem Download-Ordner. Bewahre sie z. B. in deinem Schul-Cloudspeicher auf.
 
 Die Datei ist zugleich die fertige Übung: Sie läuft in jedem Browser und lässt sich in Lernsachen-Heft einfügen. Am Namen erkennst du, aus welcher App eine Datei stammt: „(Schiebesachen)“, „(Quizsachen)“, „(Textsachen)“ oder „(Heft)“ für Lernsachen-Heft.
@@ -568,7 +568,7 @@ Schicke ihr die gespeicherte HTML-Datei. Sie lässt sich in Schiebesachen über 
 
 Brauche ich Internet?
 
-Nur für die Bildsuche (ARASAAC, Wikimedia Commons). Alles andere – auch Zeichnen (samt Schriften), Aufnehmen und Exportieren – funktioniert offline. Exportierte Übungen laufen ebenfalls ohne Internet.
+Nur für die Bildsuche (ARASAAC, Wikimedia Commons). Alles andere – auch Zeichnen (samt Schriften), Aufnehmen und Speichern – funktioniert offline. Gespeicherte Übungen laufen ebenfalls ohne Internet.
 
 Kann ich Schiebesachen wie eine App speichern?
 
