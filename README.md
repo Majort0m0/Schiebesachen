@@ -281,6 +281,7 @@ Vorlesen gibt es auch für den Titel, für Bild-Elemente mit Beschriftung, für 
 - Ziehe auf der Arbeitsfläche an den Griffen eines ausgewählten Elements, oder stelle unter „Größe & Aussehen“ Breite und Höhe ein. „Größe an Text anpassen“ bzw. „Höhe an Bild anpassen“ macht die Karte wieder passend.
 - Alle Elemente sind gleich behandelt: In der Ablage hat jede Karte dieselbe Größe wie auf der Fläche.
 - „Hintergrund der Karte“ (Farbe oder durchsichtig) und „Rahmen anzeigen“ bestimmen das Aussehen der Karte.
+- „Aussehen auf alle übertragen …“ (unter „Größe & Aussehen“) gibt allen anderen Karten das Aussehen dieses Elements: Du wählst, was übertragen wird (Schrift, Größe, Farben, Silben, Kartenfarbe, Rahmen, Vorlesen-Knopf, auf Wunsch auch Breite und Höhe) und wohin – die ziehbaren Elemente, die Texte und Bilder auf dem Hintergrund, bei mehreren Seiten auch die anderen Seiten. Inhalte und Lage bleiben.
 
 ### Richtige Bereiche und Ablenker
 
