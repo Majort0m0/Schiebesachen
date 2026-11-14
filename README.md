@@ -124,7 +124,7 @@ Ist „Bilder automatisch suchen“ eingeschaltet, sucht Schiebesachen beim Erst
 
 ### Aus einer Wortliste
 
-Bei „Bild und Wort“, „Oberbegriffe sortieren“, „Buchstabieren“ und „Silbenlesen“ setzt „Aus Wortliste …“ Wörter aus den Listen von Lernsachen-Heft ein: „Erste Wörter“ (lautgetreu), den „Grundwortschatz Bayern 1/2“ (LehrplanPLUS, nach Rechtschreibschwerpunkten) und „Deutsch als Zweitsprache“ (nach Themen). Ganze Abschnitte oder einzelne Wörter antippen, Listen lassen sich mischen. Jedes Wort bringt sein geprüftes Piktogramm mit (`Uhu [Bild: #24905]` – eine Nummer ist ein bestimmtes ARASAAC-Piktogramm, es wird nicht gesucht). Bei „Oberbegriffe sortieren“ wird jeder gewählte Abschnitt eine Spalte, z. B. „Wörter mit ei“ und „Wörter mit eu“.
+Bei „Bild und Wort“, „Oberbegriffe sortieren“, „Buchstabieren“ und „Silbenlesen“ setzt „Aus Wortliste …“ Wörter aus den Listen von Lernsachen-Heft ein: „Erste Wörter“ (lautgetreu), den „Grundwortschatz Bayern 1/2“ (LehrplanPLUS, nach Rechtschreibschwerpunkten), „Deutsch als Zweitsprache“ (nach Themen) und „Beruf und Haushalt“ (Fachwörter der Berufsschulstufe). Ganze Abschnitte oder einzelne Wörter antippen, Listen lassen sich mischen. Jedes Wort bringt sein geprüftes Piktogramm mit (`Uhu [Bild: #24905]` – eine Nummer ist ein bestimmtes ARASAAC-Piktogramm, es wird nicht gesucht). Bei „Oberbegriffe sortieren“ wird jeder gewählte Abschnitt eine Spalte, z. B. „Wörter mit ei“ und „Wörter mit eu“.
 
 ### Mit einer KI
 
