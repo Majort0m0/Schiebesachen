@@ -1,13 +1,13 @@
 # Datenschutz
 
-Diese Hinweise stehen auch in der App unter „Datenschutz“.
+Diese Erklärung steht auch in der App unter „?“ → „Datenschutz“.
 
 **Kurz gesagt:**
 
 - Schiebesachen hat keinen Server. Alles läuft lokal in deinem Browser.
 - Deine Übungen werden nur auf deinem Gerät gespeichert.
 - Keine Anmeldung, keine Cookies, kein Tracking, keine Analyse, keine Werbung.
-- Verbindungen ins Internet gibt es nur, wenn du die Bildsuche (ARASAAC, Wikimedia Commons) benutzt, bei einer neuen Übung Bilder automatisch suchen lässt oder eine Bildadresse (URL) einfügst – siehe Punkt 4 –, und wenn du eine KI über eine API-Schnittstelle nutzt – siehe Punkt 8.
+- Verbindungen ins Internet gibt es nur, wenn du die Bildsuche (ARASAAC, BildWort, Wikimedia Commons) benutzt, bei einer neuen Übung Bilder automatisch suchen lässt oder eine Bildadresse (URL) einfügst – siehe Punkt 4 –, und wenn du eine KI über eine API-Schnittstelle nutzt – siehe Punkt 8.
 
 ### 1. Alles läuft lokal in deinem Browser
 
@@ -38,11 +38,12 @@ Nur wenn du im Bild-Dialog **selbst** eine Suche startest oder ein Suchergebnis 
 | Dienst | Adressen | Datenschutz |
 |---|---|---|
 | **ARASAAC** (Regierung von Aragón, Spanien) | `api.arasaac.org`, `static.arasaac.org` | [Datenschutzerklärung von ARASAAC](https://arasaac.org/privacy-policy) |
+| **BildWort** (Christian Urff) | `symbole.urff.app` | [Datenschutzhinweise von BildWort](https://symbole.urff.app/hilfe#datenschutz) |
 | **Wikimedia Commons** (Wikimedia Foundation, USA) | `commons.wikimedia.org`, `upload.wikimedia.org`, `thumb.wikimedia.org` | [Datenschutzrichtlinie der Wikimedia Foundation](https://foundation.wikimedia.org/wiki/Policy:Privacy_policy/de) |
 
-Dabei werden **deine IP-Adresse**, der **Suchbegriff** und übliche technische Angaben deines Browsers (z. B. Browsertyp, Sprache) an diesen Dienst übermittelt – so wie beim Besuch der jeweiligen Webseite. Schiebesachen schickt keine weiteren Daten mit, insbesondere nicht deine Übung. Gib deshalb keine personenbezogenen Daten als Suchbegriff ein. Die Wikimedia Foundation sitzt in den USA; Daten können dorthin übertragen werden.
+Dabei werden **deine IP-Adresse**, der **Suchbegriff** und übliche technische Angaben deines Browsers (z. B. Browsertyp, Sprache) an diesen Dienst übermittelt – so wie beim Besuch der jeweiligen Webseite. Schiebesachen schickt keine weiteren Daten mit, insbesondere nicht deine Übung. Gib deshalb keine personenbezogenen Daten als Suchbegriff ein. Die Wikimedia Foundation sitzt in den USA; Daten können dorthin übertragen werden. BildWort zählt die Suchwörter (ohne IP-Adresse, höchstens 90 Tage), damit seine Redaktion sieht, welche Bilder noch fehlen. Außerdem merkt sich dein Browser (localStorage), in welcher Reihenfolge die Bildquellen gefragt werden und welches Bild du zuletzt für ein Wort gewählt hast (Wort, Bildadresse, Bildnachweis) – das gilt für alle vier Lernsachen-Apps auf diesem Gerät.
 
-Erstellst du eine „Neue Übung“ aus einem Übungsformat und ist „Bilder automatisch suchen“ eingeschaltet, sucht dein Browser beim Klick auf „Übung erstellen“ bei ARASAAC nach den Wörtern bzw. Suchwörtern der Karten – dabei gilt dasselbe wie bei der Bildsuche. Schalte die Bildsuche aus, wenn das nicht passieren soll.
+Erstellst du eine „Neue Übung“ aus einem Übungsformat und ist „Bilder automatisch suchen“ eingeschaltet, sucht dein Browser beim Klick auf „Übung erstellen“ bei ARASAAC und BildWort (Reihenfolge wie im Bild-Dialog) nach den Wörtern bzw. Suchwörtern der Karten – dabei gilt dasselbe wie bei der Bildsuche. Schalte die Bildsuche aus, wenn das nicht passieren soll.
 
 Fügst du unter „Oder Bildadresse (URL) einfügen“ eine Adresse ein oder ziehst ein Bild aus einer anderen Webseite hinein, lädt dein Browser das Bild von dieser Webseite – auch dabei erfährt deren Betreiber deine IP-Adresse.
 

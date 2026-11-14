@@ -8,7 +8,10 @@
 
 - Mehrseitige Übungen: mehrere Seiten mit „Weiter“/„Zurück“ und Gesamtergebnis (auch in SCORM und im PDF)
 - Neue Übungen aus Übungsformaten – Bild und Wort, Oberbegriffe sortieren, Artikel (der, die, das), Reihenfolge, Paare, Bild beschriften, Buchstabieren, Silbenlesen: nur die Begriffe aufschreiben oder von einer KI vorschlagen lassen, Anordnung, Design und Piktogramme macht Schiebesachen
-- Texte, Bilder (Upload, ARASAAC, Wikimedia Commons) und Töne (Upload oder Aufnahme) als Zuordnungselemente
+- Texte, Bilder (Upload, Bildersuche bei BildWort, ARASAAC und Wikimedia Commons – mit Jugendschutzfilter) und Töne (Upload oder Aufnahme) als Zuordnungselemente
+- Titelbild der Übung (im ersten Schritt mit dem Stern gewählt, sonst das erste Bild) – im Player neben dem Titel, dazu die Übungsart mit Symbol
+- Voreinstellungen für neu erstellte Übungen (Vorlesen, Schrift, Textfarbe, Silben, Bilder automatisch suchen) – gelten für alle Lernsachen-Apps auf diesem Gerät
+- Aus Lernsachen-Heft heraus („Weitere Übung“): „Neue Übung“ startet mit den Wörtern der Übung im Heft
 - Hintergrund als Bild, Farbe oder frei gestaltet im Editor – mit Texten, Bildern, Tönen und eigenen Zeichnungen
 - Lösungsbereiche sichtbar, als Punkt, als Pfeil, in Elementgröße oder unsichtbar
 - Vorlesen per Sprachausgabe oder eigener Aufnahme, gut lesbare Schriften (u. a. Atkinson Hyperlegible, Andika)
@@ -21,7 +24,7 @@ Schiebesachen – Lizenz: [CC BY-NC-SA 4.0](https://creativecommons.org/licenses
 
 Du darfst Schiebesachen kopieren, weitergeben und verändern – auch in deiner Schule und im Kollegium –, solange du Lernsachen.blog als Urheber nennst, auf die Lizenz verweist, es nicht kommerziell nutzt und Veränderungen unter derselben Lizenz weitergibst. Die Übungen, die du damit erstellst, gehören dir; für darin verwendete Bilder und Töne gelten deren eigene Lizenzen.
 
-Enthaltene Bausteine: [Preact](https://preactjs.com), [Immer](https://immerjs.github.io/immer/), [Excalidraw](https://excalidraw.com) (MIT-Lizenz); [Anthropic TypeScript SDK](https://github.com/anthropics/anthropic-sdk-typescript) für die KI-Schnittstelle ([Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0)); Schriften Lexend, Nunito, Atkinson Hyperlegible, Andika, Merriweather, Caveat (SIL Open Font License 1.1). Bilder aus der Suche behalten ihre eigenen Lizenzen (ARASAAC: CC BY-NC-SA 4.0). Silbentrennung (Silben rot und blau): [Hypher](https://github.com/bramstein/hypher) (© 2011 Bram Stein, BSD-3-Clause) mit den deutschen TeX-Trennmustern dehyphn-x-2011-06-01 (© 2007–2011 Werner Lemberg, [LaTeX Project Public License 1.3c](https://www.latex-project.org/lppl/)), von Bram Stein ins Hypher-Format umgewandelt (npm-Paket hyphenation.de 0.2.1); die Silbenregeln für Sprechsilben kommen danach dazu. Die Autoren der Trennmuster sind für diese App nicht verantwortlich. Unverändertes Original: [tex-hyphen](https://github.com/hyphenation/tex-hyphen) (hyph-de-1996.tex, Stand 2011-06-01) bzw. CTAN (hyph-utf8).
+Enthaltene Bausteine: [Preact](https://preactjs.com), [Immer](https://immerjs.github.io/immer/), [Excalidraw](https://excalidraw.com) (MIT-Lizenz); [Anthropic TypeScript SDK](https://github.com/anthropics/anthropic-sdk-typescript) für die KI-Schnittstelle ([Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0)); Schriften Lexend, Nunito, Atkinson Hyperlegible, Andika, Merriweather, Caveat (SIL Open Font License 1.1). Bilder aus der Suche behalten ihre eigenen Lizenzen (ARASAAC: CC BY-NC-SA 4.0, BildWort: CC BY 4.0, Wikimedia Commons: je nach Bild). Silbentrennung (Silben rot und blau): [Hypher](https://github.com/bramstein/hypher) (© 2011 Bram Stein, BSD-3-Clause) mit den deutschen TeX-Trennmustern dehyphn-x-2011-06-01 (© 2007–2011 Werner Lemberg, [LaTeX Project Public License 1.3c](https://www.latex-project.org/lppl/)), von Bram Stein ins Hypher-Format umgewandelt (npm-Paket hyphenation.de 0.2.1); die Silbenregeln für Sprechsilben kommen danach dazu. Die Autoren der Trennmuster sind für diese App nicht verantwortlich. Unverändertes Original: [tex-hyphen](https://github.com/hyphenation/tex-hyphen) (hyph-de-1996.tex, Stand 2011-06-01) bzw. CTAN (hyph-utf8).
 
 <details><summary>Lizenztext von Hypher (BSD-3-Clause)</summary>
 
@@ -117,7 +120,7 @@ Sechs Designs legen Hintergrundfarbe, Karten, Schrift und Farben fest: „Klar�
 
 ### Bilder automatisch suchen
 
-Ist „Bilder automatisch suchen“ eingeschaltet, sucht Schiebesachen beim Erstellen zu jedem Suchwort das erste passende Piktogramm bei ARASAAC (Lizenz CC BY-NC-SA 4.0, steht als Bildnachweis am Bild). Findet ein eigenes Suchwort nichts, wird das Wort der Karte versucht. Wörter ohne Treffer zeigt Schiebesachen danach an – dort fügst du die Bilder selbst ein. Dafür braucht es Internet; ohne Bilder geht alles auch offline.
+Ist „Bilder automatisch suchen“ eingeschaltet, sucht Schiebesachen beim Erstellen zu jedem Suchwort das am besten passende Bild bei ARASAAC oder BildWort (in der Reihenfolge unter „Quellen“ im Bild-Dialog; die Lizenz steht als Bildnachweis am Bild). Findet ein eigenes Suchwort nichts, wird das Wort der Karte versucht. Wörter ohne Treffer zeigt Schiebesachen danach an – dort fügst du die Bilder selbst ein. Dafür braucht es Internet; ohne Bilder geht alles auch offline.
 
 ### Aus einer Wortliste
 
@@ -176,10 +179,13 @@ Unter „Art des Hintergrunds“ wählst du eine von drei Möglichkeiten: „Bil
 
 Große Fotos werden automatisch verkleinert und komprimiert, damit die Übung schnell lädt. Du musst sie vorher nicht bearbeiten.
 
-### Bilder suchen: ARASAAC und Wikimedia Commons
+### Bilder suchen: BildWort, ARASAAC und Wikimedia Commons
+
+„Suchen“ zeigt je Quelle eine Reihe mit den ersten Treffern, der Pfeil am Ende holt weitere. Von Haus aus kommt BildWort zuerst, dann ARASAAC; Wikimedia Commons ist aus, bis du es einschaltest („Auch dort suchen“ unter den Treffern oder „Quellen“). Der am besten passende Treffer ist markiert und gleich ausgewählt. Unter „Quellen“ ziehst du die Quellen in deine Reihenfolge oder schaltest sie aus; das Bild, das du für ein Wort wählst, nimmt Schiebesachen beim nächsten Mal zuerst.
 
 - **ARASAAC (Piktogramme):** über 10.000 einheitliche, klare Piktogramme – ideal für Förderschule, DaZ und Grundschule. Suchbegriff auf Deutsch eingeben, z. B. „Hund“. Lizenz: CC BY-NC-SA 4.0 (nicht kommerziell, Namensnennung, Weitergabe unter gleichen Bedingungen). Der Pflicht-Bildnachweis wird automatisch gespeichert.
-- **Wikimedia Commons:** Millionen freier Fotos, Zeichnungen und Karten mit unterschiedlichen Lizenzen. Klicke auf ein Bild, um „Lizenz“, „Urheber“ und Größe zu sehen; ein Doppelklick übernimmt es direkt. Urheber und Lizenz werden automatisch als Bildnachweis gespeichert. Die Suche antwortet manchmal etwas langsam – mit „Mehr anzeigen“ lädst du weitere Treffer.
+- **BildWort (Symbole, beta):** eine neue, offene Sammlung klarer Symbole für Alltag, Kommunikation und Schule ([symbole.urff.app](https://symbole.urff.app)). Lizenz: CC BY 4.0 (Namensnennung) – der Bildnachweis wird automatisch gespeichert.
+- **Wikimedia Commons:** Millionen freier Fotos, Zeichnungen und Karten mit unterschiedlichen Lizenzen. Klicke auf ein Bild, um Lizenz und Urheber zu sehen; ein Doppelklick übernimmt es direkt. Urheber und Lizenz werden automatisch als Bildnachweis gespeichert. Die Suche antwortet manchmal etwas langsam. Die Treffer laufen durch einen Jugendschutzfilter (Nacktheit, Gewalt, Drogen) – kein Filter ist perfekt, schau Fotos vor dem Einsatz an.
 
 > **Lizenzen beachten:** Verwende nur Bilder, die du selbst gemacht hast oder nutzen darfst. Die Bildnachweise stehen in der exportierten Übung unter „Bildnachweise“. Lösche sie nicht und prüfe vor dem Veröffentlichen, ob die Lizenz deine Nutzung erlaubt (z. B. „NC“ = nicht kommerziell).
 
