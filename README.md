@@ -14,7 +14,7 @@
 - Aus Lernsachen-Heft heraus („Weitere Übung“): „Neue Übung“ startet mit den Wörtern der Übung im Heft
 - Hintergrund als Bild, Farbe oder frei gestaltet im Editor – mit Texten, Bildern, Tönen und eigenen Zeichnungen
 - Lösungsbereiche sichtbar, als Punkt, als Pfeil, in Elementgröße oder unsichtbar
-- Vorlesen per Sprachausgabe oder eigener Aufnahme, gut lesbare Schriften (u. a. Atkinson Hyperlegible, Andika)
+- Vorlesen per Sprachausgabe oder eigener Aufnahme, dieselben elf Schriften wie im Lernsachen-Heft (Schulschriften Druckschrift, Grundschrift und Schreibschrift VA/SAS, dazu u. a. Andika, Lexend, Atkinson Hyperlegible)
 - Export als HTML-Datei (auch zum Einbetten per iframe), SCORM-1.2-Paket mit Bewertung oder PDF-Arbeitsblatt mit Lösung
 - Keine Anmeldung, kein Server, keine Cookies – siehe [Datenschutz](DATENSCHUTZ.md)
 
@@ -243,12 +243,18 @@ Elemente sind die Kärtchen, die die Lernenden verschieben. Lege sie im Schritt 
 
 ### Schriften
 
-- **Nunito** – serifenlos und freundlich (beim ersten Start voreingestellt; danach beginnen neue Texte in der Schrift, die du zuletzt gewählt hast)
-- **Lexend** – besonders leicht lesbar, mit weiten Buchstaben
-- **Atkinson Hyperlegible** – barrierefreie Schrift mit besonders gut unterscheidbaren Buchstaben (z. B. bei Sehbeeinträchtigung oder Lese-Rechtschreib-Schwierigkeiten)
+Dieselben Schriften wie im Lernsachen-Heft:
+
 - **Andika** – für Leseanfänger, mit einstöckigem „a“
-- **Merriweather** – mit Serifen
-- **Caveat** – Handschrift
+- **Druckschrift** – Grundschul-Druckschrift wie in Bayern
+- **Grundschrift** – wie in der Schule
+- **Schreibschrift VA** und **Schreibschrift SAS** – verbundene Schrift (Vereinfachte Ausgangsschrift oder Schulausgangsschrift)
+- **Lexend** – besonders leicht lesbar, mit weiten Buchstaben
+- **Nunito** – serifenlos und freundlich (beim ersten Start voreingestellt; danach beginnen neue Texte in der Schrift, die du zuletzt gewählt hast)
+- **Atkinson** – barrierefreie Schrift mit besonders gut unterscheidbaren Buchstaben (z. B. bei Sehbeeinträchtigung oder Lese-Rechtschreib-Schwierigkeiten)
+- **Merriweather** – mit Serifen, wie in Büchern
+- **Handschrift** – locker wie mit dem Stift geschrieben
+- **Comic** – große Comic-Buchstaben
 
 Dazu kommen Größe, Farbe, fett, kursiv und Ausrichtung. Alle Schriften sind in die Übung eingebettet und sehen überall gleich aus.
 
