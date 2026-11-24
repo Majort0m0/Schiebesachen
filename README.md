@@ -10,7 +10,7 @@
 - Neue Übungen aus Übungsformaten – Bild und Wort, Oberbegriffe sortieren, Artikel (der, die, das), Reihenfolge, Paare, Bild beschriften, Buchstabieren, Silbenlesen: nur die Begriffe aufschreiben oder von einer KI vorschlagen lassen, Anordnung, Design und Piktogramme macht Schiebesachen
 - Texte, Bilder (Upload, Bildersuche bei BildWort, ARASAAC und Wikimedia Commons – mit Jugendschutzfilter) und Töne (Upload oder Aufnahme) als Zuordnungselemente
 - Titelbild der Übung (im ersten Schritt mit dem Stern gewählt, sonst das erste Bild) – im Player neben dem Titel, dazu die Übungsart mit Symbol
-- Voreinstellungen für neu erstellte Übungen (Vorlesen, Schrift, Textfarbe, Silben, Bilder automatisch suchen) – gelten für alle Lernsachen-Apps auf diesem Gerät
+- Voreinstellungen für neu erstellte Übungen (Vorlesen, Schrift, Textfarbe, Silben, Bilder automatisch suchen) – gelten für alle Lernsachen-Apps auf diesem Gerät – im Lernsachen-Heft zeigen sie die Werte des Hefts an („Im Heft ändern …“ öffnet dort die Einstellungen); „Wie die Vorlage“ übernimmt, was die Vorlage mitbringt
 - Aus Lernsachen-Heft heraus („Weitere Übung“): „Neue Übung“ startet mit den Wörtern der Übung im Heft
 - Hintergrund als Bild, Farbe oder frei gestaltet im Editor – mit Texten, Bildern, Tönen und eigenen Zeichnungen
 - Lösungsbereiche sichtbar, als Punkt, als Pfeil, in Elementgröße oder unsichtbar
